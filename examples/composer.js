@@ -48,7 +48,7 @@
         {
             name: 'mapstory',
             path: '/geoserver/',
-            absolutePath: 'http://mapstory.org/geoserver/',
+            absolutePath: 'http://beta.mapstory.org/geoserver/',
             canStyleWMS: false,
             timeEndpoint: function(name) {
                 return '/maps/time_info.json?layer=' + name;
